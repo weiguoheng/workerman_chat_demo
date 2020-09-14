@@ -1,0 +1,2 @@
+# workerman_chat_demo
+laravel框架安装workerman依赖，做的一个长连接demo
