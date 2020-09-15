@@ -39,13 +39,10 @@ class SocketStartCommand extends Command
     public function handle()
     {
         $ws_worker = new Worker("websocket://0.0.0.0:2000");
-
         // 启动4个进程对外提供服务
         $ws_worker->count = 4;
-
-        // 当收到客户端发来的数据后返回hello $data给客户端
         $ws_worker->onMessage = function ($connection, $data) {
-            // 向客户端发送hello $data
+            // 向客户端返回发送内容
             $connection->send($data);
         };
 
