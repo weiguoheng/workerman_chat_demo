@@ -1,0 +1,46 @@
+.center-block{
+    margin:0 auto;
+    width:250px;
+    height:50px;
+}
+.chat-box{
+    margin: 0 auto;
+    width: 400px;
+}
+.chat-history{
+    height: 200px;
+    width: 400px;
+    padding: 2px;
+    border: 1px solid #8c8c8c;
+    margin: 5px 0;
+    overflow: auto;
+}
+.fr{
+    float: right;
+}
+.chat-li{
+    list-style: none;
+    padding: 10px 15px;
+    background: #2BD54D;
+    margin: 5px 15px;
+    border-radius: 5px;
+    float: right;
+}
+.chat-ul{
+    width: 300px;
+    float: right;
+}
+.chat-box-all{
+    padding: 3px;
+    width: 410px;
+}
+.friends-list-box{
+    width: 100px;
+    height: 330px;
+    border: 1px solid #ccc;
+    position: fixed;
+    margin-left: -120px;
+}
+.friends-list{
+    list-style: none;
+}
